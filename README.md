@@ -1,7 +1,12 @@
-# Indian Sign Language (ISL) Translator
+# Indian Sign Language (ISL) Recognition System
 
 ## Project Overview
-This Jupyter notebook implements an Indian Sign Language (ISL) translator using computer vision and machine learning techniques. The project aims to bridge communication gaps by translating hand gestures into text or speech.
+
+Sign language serves as a primary medium of communication for individuals who are hearing or speech impaired. In recent years, considerable advancements have been made in translating American Sign Language (ASL) to text, but meagre developments have taken place to aid Indian Sign Language (ISL) users. India, is one of the largest deaf community globally. Some efforts have been made in Indian Sign Language Recognition (SLR) but are limited to alphanumeric gesture recognition. Real-Time Sign Language translation is an essential yet challenging task as sign language uses fast and complex hand movements, posture adjustments, and facial expressions. 
+ 
+The proposed model is a real-time Indian Sign Language to-text translator to bridge this gap in existing SLR models. This approach is to develop a Computer Vision model utilizing techniques and methods such as pose estimation, feature extraction, image segmentation, edge detection, and image classification to identify, extract, and interpret the ISL gestures used by the users and accurately classify them into the corresponding English text. The impact of this work could be crucial in extending and drastically improving current language aids for the speech or hearing impaired as it would reduce the barrier of understanding Indian Sign Language to communicate effectively with non-ISL users.   
+
+
 
 ## Features
 - Real-time hand gesture recognition
@@ -55,4 +60,3 @@ pip install opencv-python numpy matplotlib mediapipe
 ## Acknowledgments
 - MediaPipe by Google
 - OpenCV Community
-- Machine Learning Research Team
